@@ -1,13 +1,14 @@
 <template>
   <div>
     <div class="fab" @click="open">
-        <img src="../assets/floating-button.png" alt="">
+        <!-- <img src="../assets/floating-button.png" alt=""> -->
+        <img src="@/assets/floating-button.png" alt="">
     </div>
 
     <div class="box">
       <div id="bottom" class="div">
         <div class="content-bottom">
-          <img src="../assets/hello.png" alt="Agendamiento">
+          <img src="@/assets/hello.png" alt="Agendamiento">
           <div class="content-title">
             <span class="title">Agenda tu asesoría con un agente</span>
           </div>
@@ -18,13 +19,13 @@
           <div class="options-appointment">
             <a href ="#" class="btn-link" >
               <div class="button" >
-                  <img src ="../assets/phone-call.png" alt="img" >
+                  <img src ="@/assets/phone-call.png" alt="img" >
                   <span> Llámame lo antes posible </span>
               </div>
             </a>
             <a href ="#" class="btn-link" >
               <div class="button" >
-                  <img src ="../assets/phone-call.png" alt="img" >
+                  <img src ="@/assets/phone-call.png" alt="img" >
                   <span> Quiero reservar una cita </span>
               </div>
             </a>
@@ -41,19 +42,19 @@
             <div class="options">
               <div class="opt-contact">
                 <div class="opt-img-div">
-                  <img src ="../assets/whatsapp-gray.png" class="img-opt" alt="img" >
+                  <img src ="@/assets/whatsapp-gray.png" class="img-opt" alt="img" >
                 </div>
                 <span class="opt-text"> Whatsapp </span>
               </div>
               <div class="opt-contact">
                 <div class="opt-img-div">
-                  <img src ="../assets/call-gray.png" class="img-opt" alt="img" >
+                  <img src ="@/assets/call-gray.png" class="img-opt" alt="img" >
                 </div>
                 <span class="opt-text"> Llamada </span>
               </div>
               <div class="opt-contact">
                 <div class="opt-img-div">
-                  <img src ="../assets/video-call-gray.png" class="img-opt" alt="img" >
+                  <img src ="@/assets/video-call-gray.png" class="img-opt" alt="img" >
                 </div>
                 <span class="opt-text"> Videollamada </span>
               </div>
@@ -65,7 +66,7 @@
         </div>
       </div>
       <div id="close" class="div" @click="closeBox">
-          <img src="../assets/close.png" alt="close" class="imgClose">
+          <img src="@/assets/close.png" alt="close" class="imgClose">
       </div>
     </div>
   </div>

@@ -1,7 +1,7 @@
 {
   "name": "appointment-component",
   "description": "Componente de agendamiento",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": false,
   "main": "dist/appointment-component.umd.js",
   "module": "dist/appointment-component.esm.js",
